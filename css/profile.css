@@ -1,0 +1,292 @@
+.toggle-checkbox {
+  -webkit-appearance: none;
+  appearance: none;
+  transition: 0.5s;
+}
+.page {
+  min-height: 200vh;
+}
+.toggle-switch {
+  background-color: #dddada;
+  width: 78px;
+  height: 32px;
+  position: relative;
+  border-radius: 16px;
+  transition: 0.3s;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.toggle-switch span:last-child {
+  color: blue;
+  transition: 0.5s;
+  display: none;
+}
+.toggle-switch span:first-child {
+  color: #dddada;
+}
+
+.toggle-switch span {
+  transition: 0.5s;
+  width: 24px;
+  height: 24px;
+  background-color: aliceblue;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 5px;
+  /* left: 45px; */
+}
+.toggle-checkbox:checked + .toggle-switch {
+  background-color: blue;
+}
+.toggle-checkbox:checked + .toggle-switch span {
+  left: 45px;
+  display: block;
+}
+.display-none {
+  display: none;
+}
+
+.content-profile {
+  width: 100%;
+}
+.page {
+  min-height: 100vh;
+}
+.header-none-grid {
+  width: 98%;
+  border-radius: 10px;
+  background-color: white;
+  margin: auto;
+  height: 600px;
+  display: flex;
+}
+.profiles {
+  width: 400px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.profile-marwan-bouhamid {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  border-right: 2px solid #eee;
+}
+.profile-marwan-bouhamid img {
+  width: 180px;
+  margin-bottom: 20px;
+}
+.njma i {
+  color: orange;
+}
+.blue-niveau {
+  width: 200px;
+  height: 6px;
+  border-radius: 5px;
+  background-color: #bbbb;
+}
+.blue-niveau::before {
+  content: "";
+  width: 150px;
+  height: 6px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: blue;
+  position: absolute;
+}
+.profile-marwan-bouhamid {
+  height: 650px;
+}
+.information-profil {
+  width: 100%;
+  height: 100%;
+}
+.generale-information {
+  width: 86%;
+  height: 120px;
+  border-bottom: 2px solid #eee;
+  margin-top: 36px;
+  padding-left: 35px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.bord-no {
+  border: none;
+}
+.full {
+  display: flex;
+  font-weight: 600;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+.w-t {
+  width: 320px;
+}
+.country {
+  margin-top: 10px;
+}
+.full label {
+  display: flex;
+  margin-top: 10px;
+}
+.header-none-grid {
+  height: 800px;
+}
+.gender {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+@media (max-width: 767px) {
+  .header-none-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1300px;
+  }
+  .gender {
+    margin-top: 10px;
+  }
+  .country {
+    margin-top: 10px;
+  }
+  .full label {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .generale-information {
+    display: flex;
+    flex-direction: column;
+    height: 160px;
+  }
+  .full {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .profiles {
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-start;
+  }
+  .profile-marwan-bouhamid {
+    border-right: none;
+    height: 400px;
+  }
+}
+
+@media (max-width: 1330px) {
+}
+.full {
+  display: flex;
+  flex-wrap: wrap;
+}
+.my-skills {
+  border-radius: 10px;
+  height: 580px;
+  background-color: white;
+  padding-top: 20px;
+  flex-grow: 1;
+}
+.devlope {
+  width: 88%;
+  margin: auto;
+  margin-top: 30px;
+}
+.language {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  font-weight: 600;
+  align-items: center;
+}
+.language:not(:last-child) {
+  border-bottom: 2px solid #eee;
+}
+.html {
+  width: fit-content;
+  background-color: #eee;
+  padding: 5px;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+.latest-activties {
+  flex-grow: 2;
+  height: 600px;
+  background-color: white;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+.two-div {
+  width: 98%;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+}
+.stor img {
+  width: 80px;
+}
+.container-activities {
+  width: 93%;
+  margin: auto;
+  margin-top: 30px;
+}
+.stor {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 110px;
+}
+.stor:not(:last-child) {
+  border-bottom: 2px solid #eee;
+}
+.cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 20px;
+}
+@media (max-width: 767px) {
+  .two-div {
+    display: flex;
+    flex-direction: column;
+  }
+  .latest-activties {
+    margin: 0;
+    margin-top: 10px;
+  }
+  .stor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+  }
+  .latest-activties {
+    height: 950px;
+  }
+  .cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .cont .title-store,
+  .cont .time-store {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+}
+.active {
+  background-color: #efefef;
+}

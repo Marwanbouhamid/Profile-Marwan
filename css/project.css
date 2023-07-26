@@ -1,0 +1,126 @@
+.grid {
+  height: 500px;
+  width: 100%;
+  background-color: white;
+  border-radius: 5px;
+}
+.header-elzero {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.mr-20 {
+  margin-right: 20px;
+}
+.time-elzero {
+  height: 40px;
+  margin-top: 20px;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+}
+.img-elzero img {
+  width: 50px;
+  transition: 0.5s;
+}
+.img-elzero img:not(:first-child) {
+  margin-left: -20px;
+}
+.img-elzero img:hover {
+  z-index: 1;
+}
+.container-elzero {
+  width: 88%;
+  margin: auto;
+  margin-top: 20px;
+}
+.img-elzero {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #eee;
+}
+.lang {
+  padding: 5px;
+  background-color: #eee;
+  width: fit-content;
+  border-radius: 8px;
+  font-weight: 600;
+  margin-left: 10px;
+  height: fit-content;
+}
+.lnguage-programming {
+  display: flex;
+  border-bottom: 2px solid #eee;
+  height: 70px;
+  align-items: center;
+  justify-content: right;
+}
+.persent-salery {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.persent-salary-red {
+  width: 300px;
+  height: 7px;
+  border-radius: 5px;
+  background-color: #eee;
+}
+.before-red {
+  width: 45%;
+  height: 7px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: red;
+}
+.salary-doler {
+  font-weight: 600;
+  color: gray;
+}
+.green {
+  background-color: green;
+}
+.page {
+  min-height: 100vh;
+}
+.w-70 {
+  width: 70%;
+}
+.w-100 {
+  width: 100%;
+}
+.blue {
+  background-color: blue;
+}
+.chatting-application .header-elzero {
+  min-height: 124px;
+}
+@media (max-width: 767px) {
+  .lnguage-programming {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: flex-start;
+  }
+  .lang {
+    margin-left: 0;
+    margin-bottom: 5px;
+  }
+  .persent-salery {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+  }
+  .persent-salary-red {
+    margin-top: 10px;
+  }
+  .salary-doler {
+    margin-top: 10px;
+  }
+}

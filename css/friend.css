@@ -1,0 +1,91 @@
+.friends10 {
+  width: 100%;
+  height: 450px;
+  background-color: white;
+  border-radius: 5px;
+}
+.page {
+  min-height: 100vh;
+}
+.icons-phone-and-mail {
+  width: 90%;
+  margin: auto;
+  margin-top: 10px;
+  display: flex;
+}
+.profile-frinds-ahmed {
+  width: 90%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: 2px solid #eee;
+  margin: auto;
+}
+.profile-frinds-ahmed img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+.phone-icone {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: gray;
+}
+.phone-icone:not(:first-child) {
+  margin-left: 10px;
+}
+.profile-frinds-info {
+  width: 90%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-bottom: 2px solid #eee;
+  margin: auto;
+  padding-bottom: 10px;
+}
+.numbers-friend {
+  font-weight: 600;
+  margin-top: 10px;
+}
+.numbers-friend i {
+  margin-right: 5px;
+}
+.footer-frinds-page {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+}
+.footer-frinds-page a {
+  font-weight: 600;
+  font-size: 15px;
+  width: 70px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.footer-frinds-page a:hover {
+  opacity: 0.8;
+}
+.bk-blue {
+  background-color: blue;
+}
+.bk-orange {
+  background-color: orange;
+}

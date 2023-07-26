@@ -1,0 +1,155 @@
+.files1 {
+  width: 250px;
+  height: 500px;
+  background-color: white;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-left: 15px;
+}
+.container-files {
+  width: 90%;
+  margin-top: 20px;
+  margin-right: 45px;
+}
+.pdf-files {
+  padding: 5px;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  border: 2px solid #eee;
+  margin: auto;
+  align-items: center;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.pdf-files i {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pdf-files:first-child i {
+  background-color: rgba(0, 38, 255, 0.541);
+  color: blue;
+}
+.title-pdf-container {
+  margin-left: 10px;
+}
+.title-pdf-container h5:not(:last-child) {
+  margin-bottom: 8px;
+}
+.gb {
+  font-weight: 600;
+  font-size: 15px;
+  margin-left: auto;
+}
+.bg-green-color-green {
+  background-color: rgba(0, 128, 0, 0.521);
+  color: green;
+}
+.bg-red-color-red {
+  background-color: rgba(255, 0, 0, 0.479);
+  color: red;
+}
+.bg-orange-color-orange {
+  background-color: rgba(255, 166, 0, 0.418);
+  color: orange;
+}
+.animation {
+  margin: auto;
+  width: 80px;
+  height: 30px;
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  justify-content: space-between;
+  transition: 0.3s;
+}
+.animation i {
+  transition: 0.3s;
+}
+.animation:hover {
+  opacity: 0.8;
+}
+.animation:hover i {
+  animation: go-up 0.8s infinite;
+}
+.my-file {
+  width: 100%;
+  height: 250px;
+  background-color: white;
+  border-radius: 10px;
+}
+.files-statistics-storage {
+  display: flex;
+  gap: 10px 10px;
+  flex-direction: row-reverse;
+}
+.grid-files {
+  width: 100%;
+  display: grid;
+  gap: 10px 10px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+.my-file img {
+  height: 63px;
+  margin-bottom: 20px;
+}
+.my-file i {
+  margin-left: 10px;
+  margin-top: 10px;
+  color: #d3d0d0;
+}
+.file-img-and-title {
+  width: 100%;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 600;
+}
+.my-file h4 {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.footer-files {
+  width: 90%;
+  border-top: 2px solid #eee;
+  margin: auto;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 600;
+  color: #c5c4c4;
+}
+.file-img-and-title img {
+  transition: 0.3s;
+}
+.file-img-and-title img:hover {
+  rotate: 30deg;
+}
+@keyframes go-up {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+@media (max-width: 932px) {
+  .files-statistics-storage {
+    display: flex;
+    flex-direction: column;
+  }
+  .files1 {
+    width: 100%;
+  }
+}

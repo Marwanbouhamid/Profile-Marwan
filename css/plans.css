@@ -1,0 +1,85 @@
+.grid-plans {
+  display: grid;
+  width: 100%;
+  gap: 10px 10px;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+}
+.free-plans {
+  width: 100%;
+  background-color: white;
+  height: 750px;
+  border-radius: 10px;
+}
+.header-free {
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  border: 4px solid;
+  outline: 4px solid green;
+  background-color: green;
+  color: white;
+  font-weight: 700;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 40px;
+}
+.maney-free span {
+  font-size: 25px;
+  position: absolute;
+  left: -20px;
+}
+.maney-free {
+  margin-top: 20px;
+  position: relative;
+}
+.container-free1 {
+  width: 90%;
+  margin: auto;
+}
+.free1-or-not {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #eee;
+  font-weight: 600;
+}
+.true {
+  color: green;
+}
+.help {
+  cursor: pointer;
+  color: #bbb;
+}
+.false {
+  color: red;
+}
+.join {
+  width: 50px;
+  height: 30px;
+  background-color: green;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.join:hover {
+  opacity: 0.8;
+}
+.bk-blue-plans {
+  background-color: rgb(15, 15, 182);
+}
+.bd-blue {
+  outline-color: blue;
+}
+.bd-orange {
+  outline-color: orange;
+}
